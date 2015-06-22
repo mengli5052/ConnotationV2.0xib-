@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="LaunchImage-800-667h.png" translatesAutoresizingMaskIntoConstraints="NO" id="wCl-7c-MZX">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wCl-7c-MZX" secondAttribute="bottom" id="46U-1F-vgh"/>
+                <constraint firstItem="wCl-7c-MZX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="D3H-yL-XWe"/>
+                <constraint firstItem="wCl-7c-MZX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IDM-kJ-tz9"/>
+                <constraint firstAttribute="trailing" secondItem="wCl-7c-MZX" secondAttribute="trailing" id="be3-mH-0lS"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="46U-1F-vgh"/>
+                    <exclude reference="D3H-yL-XWe"/>
+                    <exclude reference="IDM-kJ-tz9"/>
+                    <exclude reference="be3-mH-0lS"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="46U-1F-vgh"/>
+                    <include reference="D3H-yL-XWe"/>
+                    <include reference="IDM-kJ-tz9"/>
+                    <include reference="be3-mH-0lS"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="489" y="307"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LaunchImage-800-667h.png" width="375" height="667"/>
+    </resources>
+</document>
